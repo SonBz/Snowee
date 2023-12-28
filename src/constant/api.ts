@@ -4,7 +4,7 @@ const http = axios.create();
 
 const localStore: Storage = window.localStorage;
 
-export const baseURL = "http://localhost:3000/";
+export const baseURL = "https://snowee.vercel.app/";
 
 http.interceptors.request.use((config: any) => {
     return {
